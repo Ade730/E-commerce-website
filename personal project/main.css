@@ -1,0 +1,171 @@
+body{
+    background-color:#f5f5f5;
+}
+
+
+.limited{
+    height: 25px;
+}
+
+.icons{
+    font-size: 30px;
+}
+
+.icons-two{
+    font-size: 30px;
+    display: inline-flex;
+    /* height: 15px; */
+    width: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.carousel-top{
+    position: relative;
+}
+
+.carousel-bottom{
+    position: absolute;
+    bottom: 35%;
+    left: 60%;
+}
+
+
+.sena{
+    height: 5px;
+}
+
+.pods-top{
+    position: relative;
+}
+
+.pods-bottom{
+    position: absolute;
+    bottom: 25%;
+    left: 57%;
+}
+
+.owl-item > div {
+    cursor: pointer;
+    margin: 6% 8%;
+    transition: margin 0.4s ease;
+  }
+  .owl-item.center > div {
+    cursor: auto;
+    margin: 0;
+  }
+  .owl-item:not(.center) > div:hover {
+    opacity: .75;
+  }
+
+  .owl-phones{
+    box-sizing: border-box;
+    border: none;
+    background-color:#fff;
+    border-radius: 5px;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .through{
+    text-decoration: line-through;
+    color: rgb(160, 160, 160);
+  }
+
+
+  .percent-up{
+    position: relative;
+  }
+
+  .percent-down{
+    position: absolute;
+    bottom: 73%;
+    right: 78%;
+  }
+
+
+  .canon-up{
+    position: relative;
+  }
+
+  .canon-down{
+    position:absolute;
+    bottom: 10%;
+    left: 5%;
+  }
+
+  .category-up{
+    position: relative;
+  }
+
+  .category-bottom{
+    position: absolute;
+    bottom: 70%;
+    
+  }
+
+  .card-up{
+    position: relative;
+
+  }
+
+  .card-bottom{
+    position: absolute;
+    left: 5%;
+    top: 94%;
+  }
+
+  .social-icons a{
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color:transparent;
+    border-radius: 100%;
+    border: 1px solid black;
+    color: rgb(97, 97, 97);
+}
+
+.social-icons a:hover{
+    background-color:  rgba(0, 0, 0, 0.966) ;
+    color: white;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.dot-up{
+  position: relative;
+}
+
+.dot-bottom{
+  position:absolute;
+  bottom: 53%;
+  left: 54%;
+}
+
+.size-btn{
+  transition: 0.5s;
+}
+
+
+.size-btn:focus{
+ background-color: green;
+ color: white;
+ border-color: white;
+}
+
+.wish-btn:focus{
+  color: red;
+}
